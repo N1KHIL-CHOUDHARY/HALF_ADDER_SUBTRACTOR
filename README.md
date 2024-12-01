@@ -51,17 +51,14 @@ Figure -02 HALF Subtractor
 **Program:**
 ---
 i)HALF ADDER  
----
-module ha(a,b,sum,carry); 
-input a,b;  
+module ha(a,b,sum,carry);   
+input a,b;    
 output sum,carry; 
 assign sum= (a ^ b); 
 assign carry= ( a & b); 
 endmodule 
----
----
+</br>
 ii)HALF SUBTRACTOR 
----
 module hs(a,b,difference,borrow); 
 input a,b; 
 output difference,borrow; 
