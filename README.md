@@ -1,5 +1,8 @@
+---
+Name:Nikhil.H     
+reg_no:24900366
+---
 # HALF_ADDER_SUBTRACTOR
-
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
 **AIM:**
@@ -66,8 +69,6 @@ assign difference= (a ^ b);
 assign borrow= ( ~a & b);    
 endmodule    
 ---
-
-Developed by: RegisterNumber:24900366(NIKHIL H)
 
 **RTL Schematic**
 ![WhatsApp Image 2024-12-01 at 14 21 03_015e47ab](https://github.com/user-attachments/assets/cb8cdaa0-6dfc-446d-a559-cf42a5226377)
